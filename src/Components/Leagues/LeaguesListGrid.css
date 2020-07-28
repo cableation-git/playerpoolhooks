@@ -1,0 +1,51 @@
+.LeaguesListGrid {
+    margin-top: 25px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  
+  .LeaguesListGrid__header,
+  .LeaguesListGrid__league-details a {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: #444;
+    width: 1200px;
+    text-decoration: none;
+  }
+  
+  .LeaguesListGrid__header div {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .LeaguesListGrid__league-details a {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px 0;
+    margin-right: 0px;
+    padding: 5px 0;
+    background-color: #efefef;
+    text-decoration: none;
+  }
+  
+  .LeaguesListGrid__header div,
+  .LeaguesListGrid__league-details a div {
+    margin: 0 50px;
+  }
+
+  .LeaguesListGrid__leagueName {
+    width: 400px;
+  }
+
+  .LeaguesListGrid__country {
+    width: 300px;
+  }
+  
+  .LeaguesListGrid__inception {
+    width: 200px;
+  }
+
+
+  

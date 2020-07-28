@@ -1,0 +1,47 @@
+
+.PlayerClubs__header div {
+    font-size: 0.8em;
+    font-weight: 900;
+    text-transform: uppercase;
+    /*width: 600px;*/
+    display: inline-block;
+  }
+  
+  .PlayerClubs__row div {
+    font-size: 0.8em;
+    font-weight: 300;
+    display: inline-block;
+  }
+
+   .PlayerClubs__name {
+      width: 90px;
+      margin: 0px 7px; 
+    }
+  
+  .PlayerClubs__league {
+    width: 75px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerClubs__division {
+    width: 75px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerClubs__city {
+    width: 75px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerClubs__country {
+    width: 70px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerClubs__inception  {
+    width: 50px;
+    margin: 0px 7px; 
+  }  
+ 
+ 
+  

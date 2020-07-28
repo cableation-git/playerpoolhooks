@@ -1,0 +1,118 @@
+.Player {
+  display: grid;
+  grid-template-columns: 625px 225px;
+  /* grid-template-rows: 125px 100px 100px 150px; */
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-left: 100px;
+  margin-right: 75px;
+}
+
+.Player__name {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.Player__infoText {
+  font-size: 0.8em;
+}
+
+.Player__img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 30px 0;
+}
+
+.Player__img img {
+  width: 100%;
+  height: auto;
+}
+
+.Player__profile {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: blueviolet;
+  color: black;
+  font-size: 1.1em;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Player__statsContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rosybrown;
+  font-size: 1.4em;
+  height: 100px;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Player__statsContainer-header {
+  color: blue;
+}
+
+.Player__natStatsContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: paleturquoise;
+  font-size: 1.2em;
+  height: 100px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Player__natStatsContainer-header {
+  color: blue;
+}
+
+.Player__clubsContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  background-color: pink;
+  font-size: 1.2em;
+  height: 100px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Player__clubsContainer-header {
+  color: blue;
+}
+
+.Player__coachesContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  background-color: teal;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Player__coachesContainer-header {
+  color:black;
+}

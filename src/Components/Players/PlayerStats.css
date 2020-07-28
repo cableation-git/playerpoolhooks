@@ -1,0 +1,80 @@
+
+.PlayerStats__header div {
+  font-size: .8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  /*width: 600px;*/
+  display: inline-block;
+}
+
+.PlayerStats__row div {
+  font-size: .8em;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.PlayerStats__year {
+    width: 50px;
+    margin: 0px 7px; 
+  }
+
+.PlayerStats__club {
+  width: 50px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__gamesPlayed {
+  width: 20px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__gamesStarted  {
+  width: 20px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__goals {
+  width: 20px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__minutes  {
+  width: 40px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__assists{
+  width: 20px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__shots {
+  width: 40px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__sog  {
+  width: 40px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__foulsCommitted  {
+  width: 20px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__offsides  {
+  width: 30px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__yellows {
+  width: 20px;
+  margin: 0px 7px; 
+}
+
+.PlayerStats__reds {
+  width: 20px;
+  margin: 0px 7px; 
+}

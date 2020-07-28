@@ -1,0 +1,70 @@
+.PlayersListGrid {
+    margin-top: 25px;
+    margin-left: 150px;
+    text-align: center;
+  }
+  
+  .PlayersListGrid__header,
+  .PlayersListGrid__player-details a {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: #444;
+    width: 1000px;
+    text-decoration: none;
+  }
+  
+  .PlayersListGrid__header div {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .PlayersListGrid__player-details a {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #efefef;
+  }
+  
+  .PlayersListGrid__header div,
+  .PlayersListGrid__player-details a div {
+    margin: 0 50px;
+  }
+  
+  .PlayersListGrid__birthDate {
+    width: 400px;
+  }
+  
+  .PlayersListGrid__name {
+    width: 400px;
+  }
+  
+  .PlayersListGrid__birthCity {
+    width: 400px;
+  }
+  
+  .PlayersListGrid__birthState {
+    width: 400px;
+  }
+
+  .PlayersListGrid__birthCountry {
+    width: 400px;
+  }
+  .PlayersListGrid__birthPlace {
+    width: 400px;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  

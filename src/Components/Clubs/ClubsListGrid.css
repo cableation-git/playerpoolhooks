@@ -1,0 +1,65 @@
+.ClubsListGrid {
+    margin-top: 25px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  
+  .ClubsListGrid__header,
+  .ClubsListGrid__club-details a {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: #444;
+    width: 1200px;
+    text-decoration: none;
+  }
+  
+  .ClubsListGrid__header div {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .ClubsListGrid__club-details a {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #efefef;
+  }
+  
+  .ClubsListGrid__header div,
+  .ClubsListGrid__club-details a div {
+    margin: 0 50px;
+  }
+
+  .ClubsListGrid__clubName {
+    width: 400px;
+  }
+
+  .ClubsListGrid__stadiumName {
+    width: 300px;
+  }
+
+  .ClubsListGrid__location {
+    width: 300px;
+  }
+
+  
+  .ClubsListGrid__inception {
+    width: 200px;
+  }
+
+  .ClubsListGrid__currentUSMNTPlayer {
+    width: 400px;
+  }
+
+  .ClubsListGrid__clubImage {
+    width: 300px;
+  }
+
+  .ClubsListGrid__clubImage img {
+    width: 50%;
+    height: auto;
+  }
+  

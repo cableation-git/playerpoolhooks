@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useContext, useEffect } from "react";
+import { Switch } from "react-router-dom";
+import PublicOnlyRoute from "./Utils/PublicRoute";
+import PrivateRoute from "./Utils/PrivateRoute";
+import NavBar from "../src/Components/NavBar/NavBar";
+import PlayerListPage from "./routes/PlayerListPage";
+import ClubListPage from "./routes/ClubListPage";
+import ClubAddPage from "./routes/ClubAddPage";
+import PlayerAddPage from "./routes/PlayerAddPage";
+import PlayerPage from "./routes/PlayerPage";
+import LeaguesListPage from "./routes/LeaguesListPage";
+import PlayersClubsUpdate from "./routes/PlayersClubsUpdate";
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar></NavBar>
+      <Switch>
+        <PublicOnlyRoute exact path="/players" component={PlayerListPage} />
+        <PublicOnlyRoute exact path="/addPlayer" component={PlayerAddPage} />
+        <PublicOnlyRoute
+          exact
+          path="/players/:player_id"
+          component={(routeProps) => <PlayerPage {...routeProps} />}
+        />
+        <PublicOnlyRoute exact path="/clubs" component={ClubListPage} />
+        <PublicOnlyRoute exact path="/addClub" component={ClubAddPage} />        
+        <PublicOnlyRoute exact path="/leagues" component={LeaguesListPage} />
+        <PublicOnlyRoute
+          exact 
+          path="/playersClubsUpdate/:player_id/:club_id"
+          component={(routeProps) => <PlayersClubsUpdate 
+            
+            {...routeProps} />}
+        />
+      </Switch>
+    </>
   );
 }
-
-export default App;

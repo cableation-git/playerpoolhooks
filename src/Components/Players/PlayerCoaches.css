@@ -1,0 +1,56 @@
+
+.PlayerCoaches__header div {
+    font-size: .6em;
+    font-weight: 800;
+    text-transform: uppercase;
+    /*width: 600px;*/
+    display: inline-block;
+  }
+  
+  .PlayerCoaches__row div {
+    font-size: 0.8em;
+    font-weight: 300;
+    display: inline-block;
+  }
+  
+  .PlayerCoaches__firstName {
+      width: 80px;
+      margin: 0px 7px; 
+    }
+  
+  .PlayerCoaches__lastName {
+    width: 80px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerCoaches__birthDate {
+    width: 80px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerCoaches__birthCity {
+    width: 20px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerCoaches__birthState {
+    width: 20px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerCoaches__birthCountry  {
+    width: 100px;
+    margin: 0px 7px; 
+  }
+  
+  .PlayerCoaches__currentClub{
+    width: 50px;
+    margin: 0px 7px; 
+  }
+
+  .PlayerCoaches__yearsAtClub {
+    width: 100px;
+    margin: 0px 7px; 
+  }
+ 
+  
